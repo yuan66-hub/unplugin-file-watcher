@@ -5,6 +5,18 @@
 npm add @yuanjianming/unplugin-file-watcher
 ```
 
+## 使用
+
+```js
+import { defineConfig } from 'vite'
+import { vitePlugin } from '@yuanjianming/unplugin-file-watcher'
+export default defineConfig({
+    //....
+    plugins: [vitePlugin()],
+})
+```
+
+
 ## 选项
 
 |  参数   | 类型  | 默认 | 描述 |
