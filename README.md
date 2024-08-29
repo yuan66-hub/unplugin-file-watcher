@@ -22,3 +22,11 @@ export default defineConfig({
 |  参数   | 类型  | 默认 | 描述 |
 |  ----  | ----  | ---- | ---- |
 | watchFiles  | string[] | [] | 监听文件的绝对路径
+
+## 思考
+
+1. webpack 如何添加文件，监听文件修改，重新启动
+- nodemon
+- entry 添加对应的依赖关系?
+2. webpack devSever wathchFile?
+
