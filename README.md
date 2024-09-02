@@ -26,7 +26,12 @@ export default defineConfig({
 ## 思考
 
 1. webpack 如何添加文件，监听文件修改，重新启动
-- nodemon
-- entry 添加对应的依赖关系?
-2. webpack devSever wathchFile?
+- nodemon (第三方工具监听)
+- entry  多入口配置添加监听文件?
+- 自定义热更新文件(xxx.hot.update.js/xxx.hot.update.json)
+
+
+## 参考链接
+- [webpack 热更新](https://webpack.docschina.org/configuration/output/#outputhotupdatechunkfilename)
+- [webpack devServer](https://webpack.js.org/configuration/dev-server/#devserver)
 
